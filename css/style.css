@@ -1,0 +1,264 @@
+
+
+/*************************ist section*************************/
+.main-section{
+	width: 100%;
+	min-height: 100vh;
+	background-color:#C60000;
+	background-size: 100% 100%;
+	position: relative;
+}
+.btn1{
+	font-size: 25px;
+	font-weight: bold;
+	width: 330px;
+	border:3px solid white;
+	cursor: pointer;
+	background-color: #C60000;
+	height: 60px;
+	text-align: center;
+}
+.btn1:hover{
+	background-color: white;
+	color:#4287f5;
+}
+/*************************ist section end*************************/
+/*************************2nd section start*************************/
+.laptop-pic{
+	margin-top: -80px;
+}
+.s2-text{
+	font-size: 45px;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 1px;
+	
+	margin-left: 200px;
+
+}
+.s2-text2{
+	margin-left: 200px;
+	font-size: 16px;
+}
+.btn2{
+	margin-left: 180px;
+	font-size: 20px;
+	height: 60px;
+	line-height: 35px;
+	width: 250px;
+	background-color: #C60000;
+	border: 0px;
+}
+/*************************2nd section end*************************/
+/*************************4nd section start*************************/
+.text{
+	font-weight: bold;
+	font-size: 55px;
+	letter-spacing: 1px;
+}
+/*************************4nd section end*************************/
+/*************************5nd section start*************************/
+.btn3{
+	margin-top: 120px;
+	font-size: 20px;
+	height: 60px;
+	line-height: 35px;
+	width: 250px;
+	background-color: #C60000;
+	border: 0px;
+}
+/*************************5nd section end*************************/
+/*************************6nd section start*************************/
+.sec6-color{
+	background-color: #C60000;
+}
+.btn4{
+	margin-top: 120px;
+	font-size: 25px;
+	height: 60px;
+	font-weight: bold;
+	line-height: 35px;
+	width: 180px;
+	background-color: #C60000;
+	border: 2px solid white;
+}
+/*************************6nd section end*************************/
+/*************************7nd section start*************************/
+.s7-text{
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+/*************************7nd section end*************************/
+.s7-box{
+	border: 2px solid black;
+	box-shadow: transparent;
+
+}
+
+/*************************8nd section start*************************/
+.www-icon{
+	width: 80px;
+	height: 80px;
+}
+.sec8-text{
+	font-size: 16px;
+
+}
+.btn5{
+	
+	font-size: 25px;
+	height: 60px;
+	line-height: 45px;
+	width: 160px;
+	background-color: #C60000;
+	
+}
+/*************************8nd section end*************************/
+.line{
+	border-bottom:2px solid #C60000;
+	width: 30px; 
+}
+/*************************9nd section start*************************/
+.sec9-bgcolor{
+	background-color: #C60000;
+}
+.sec9-text{
+	color: white;
+	font-weight: bold;
+	font-size: 45px;
+	letter-spacing: 1px;
+}
+.google{
+	width: 180px;
+	height: 60px;
+}
+.btn6{
+
+	font-size: 25px;
+	height: 60px;
+	font-weight: bold;
+	line-height: 35px;
+	width: 250px;
+	background-color: #C60000;
+	border: 2px solid white;
+}
+/*************************9nd section end*************************/
+.icons{
+	width: 200px;
+	height: 60px;
+}
+
+
+/*-----------------Media queries------------------------------*/
+@media (min-width: 992px) 
+{
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.laptop-pic{
+		margin-top: 5px;
+	}		
+	.s2-text{
+		font-size: 30px;
+		margin:auto;
+	}
+	.s2-text2{
+		margin:auto;
+		font-size: 18px;
+	}
+	.btn2{
+		margin:auto;
+	}
+	.text{
+		font-size: 30px;
+	}
+	.s7-text{
+		font-size: 25px;
+	}
+	.sec9-text{
+		font-size: 25px;
+	}
+} 
+
+@media (min-width: 575px) and (max-width: 767px)
+{
+	.laptop-pic{
+		margin-top: 5px;
+	}		
+	.s2-text{
+		font-size: 30px;
+		margin:auto;
+	}
+	.s2-text2{
+		margin:auto;
+		font-size: 18px;
+	}
+	.btn2{
+		margin:auto;
+	}
+	.text{
+		font-size: 30px;
+	}
+	.s7-text{
+		font-size: 25px;
+	}
+	.sec9-text{
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 574px)
+{
+	.laptop-pic{
+		margin-top: 5px;
+	}		
+	.s2-text{
+		font-size: 30px;
+		margin:auto;
+	}
+	.s2-text2{
+		margin:auto;
+		font-size: 18px;
+	}
+	.btn2{
+		margin:auto;
+	}
+	.text{
+		font-size: 30px;
+	}
+	.s7-text{
+		font-size: 25px;
+	}
+	.sec9-text{
+		font-size: 25px;
+	}
+
+}
+@media (min-width: 375px) and (max-width: 812px)
+{
+	.s2-text{
+		margin: auto;
+	}
+	.s2-text2{
+		margin: auto;
+	}
+	.btn2{
+		margin: auto;
+	}
+	.text{
+		font-size: 30px;
+	}
+	.laptop-pic{
+		margin-top: 10px;
+		height: 250px;
+	}
+	.sec9-text{
+		font-size: 30px;
+	}
+}
+@media (max-width: 479px)
+{}
+	
